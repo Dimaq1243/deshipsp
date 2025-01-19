@@ -1,66 +1,3 @@
-@font-face {
-    font-family: 'Inter';
-    font-weight: 400;
-    src: url('/public/fonts/Inter-Regular.woff2') format('woff2');
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    font-weight: 500;
-    src: url('/public/fonts/Inter-Medium.woff2') format('woff2');
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    font-weight: 600;
-    src: url('/public/fonts/Inter-SemiBold.woff2') format('woff2');
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    font-weight: 700;
-    src: url('/public/fonts/Inter-Bold.woff2') format('woff2');
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    font-weight: 800;
-    src: url('/public/fonts/Inter-ExtraBold.woff2') format('woff2');
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    font-weight: 900;
-    src: url('/public/fonts/Inter-Black.woff2') format('woff2');
-  }
-  
-  @font-face {
-    font-family: 'Bebas Neue';
-    font-weight: 400; 
-    src: url('/public/fonts/BebasNeue.ttf') format('ttf');
-  }
-  
-  @font-face {
-    font-family: 'Montserrat';
-    font-weight: 400;
-    src: url('/public/fonts/Montserrat-Regular.woff') format('woff');
-  }
-  
-  @font-face {
-    font-family: 'Montserrat';
-    font-weight: 600;
-    src: url('/public/fonts/Montserrat-SemiBold.woff') format('woff');
-  }
-
-
-
-
-
-
-
-
-
-
 article,
 aside,
 details,
@@ -165,7 +102,7 @@ button {
     vertical-align: baseline;
     box-sizing: border-box;
     color: white;
-    font-family: 'Nekst';
+    font-family: 'Inter';
 }
 
 .dnone {

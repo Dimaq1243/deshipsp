@@ -7,80 +7,62 @@
     <title>
         De
     </title>
-
-    <link rel="stylesheet" href="/src/style.scss">
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <img src="public/img/text.svg" alt="">
+
+    <div class="header">
+        <div class="header_left">
+            <div class="header_logo">
+                <!-- тут картинку с лого в svg -->
             </div>
-            <div class="Doc">
-                <a href="#" class="Doc">Documentation</a>
-            </div>
-            <div class="start">
-                <button class="btn">
-                    Get started
-                </button>
-            </div>
+            <a href="#" class="header_link">
+                Documentation
+            </a>
         </div>
-    </header>
-
-    <section class="heros">
-        <div class="container">
-            <div class="hero-text">
-                <div class="title_container">
-                    <span class="hero">
-                        PAYMENT PROCESSING
-                    </span> FOR YOUR BUSINESS
-                </div>
-                <div class="subtitle">
-                    Accept payments, send payouts, and manage your transactions online with Deshi PSP’s secure and
-                    efficient payment solutions.
-                </div>
-
-                <button class="btn">
+        <div class="header_button">
+            Get started
+        </div>
+    </div>
+    <div class="hero">
+        <div class="hero_content">
+            <div class="hero_header">
+                <!-- Тут сделать текст большими буквами погуглить как -->
+                <span>Payment processing</span> for your business
+            </div>
+            <div class="hero_subheader">
+                <!-- Тут сделать текст большими буквами погуглить как -->
+                Accept payments, send payouts, and manage your transactions online with Deshi PSP's secure and efficient
+                payment solutions.
+            </div>
+            <div class="hero_btn_wrapper">
+                <div class="hero_btn">
                     Contact us
-                </button>
-
-            </div>
-            <div class="scene free_img">
-                <img src="/public/img/floor_img.svg" alt="Platform" class="floor_img" />
-
-
-                <img src="/public/img/laptop_img.svg" alt="Laptop" class="laptop_img" />
-
-
-                <img src="/public/img/laptop_text_img.svg" alt="Laptop Text" class="laptop_text_img" />
-
-
-                <img src="/public/img/colo_img.svg" alt="Statistics on Wall" class="colo_img" />
-
-
-                <img src="/public/img/colo_stena_img.svg" alt="Statistics on Laptop" class="colo_stena_img" />
-
-
-                <img src="/public/img/polucolo_img.svg" alt="Half Circle" class="polucolo_img" />
-
-                <img src="/public/img/statistik_img.svg" alt="Histogram" class="statistik_img" />
-
-                <img src="/public/img/statistik_colo_img.svg" alt="Blue Element on Laptop" class="statistik_colo_img" />
-
-                <div class="info_card free_img">
                 </div>
-                <p class="info_card_text">
-                    <img src="public/img/logo_energy.svg" alt="Logo" class="info_card_logo">
-                    <span class="textik">Get access to </span> users from growing markets <span class="textik"> with
-                    </span> a lot local payment methods.
-
-                </p>
             </div>
-
-
+            <div class="hero_note_wrapper free_img">
+                <div class="hero_note">
+                    <img src='/img/ссылка на молнию' class="hero_note_decor" alt='decor'>
+                    <div class="hero_note_content">
+                        <span>Get access to </span> users from growing markets <span> with </span> a lot local payment
+                        methods.
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+        <div class="hero_decor free_img">
+            <div class="hero_decor_notebook free_img">
+                <img src='/img/notebook' alt='decor'>
+            </div>
+            <div class="hero_decor_piedestal free_img">
+                <img src='/img/piedestal' alt='decor'>
+            </div>
+            <!-- и тд -->
+        </div>
+    </div>
+
+
+    <script type="module" src="./src/main.js"></script>
 </body>
 
 </html>
