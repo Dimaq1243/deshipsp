@@ -32,16 +32,20 @@ body {
     &_logo {
         width: 159px;
         height: 18.24px;
-
+        position: relative;
+        align-self: start;
     }
 
     &_link {
         color: black;
         width: 240px;
         height: 25px;
-        text-decoration: none;
+
         font-weight: bold;
         font-family: 'Montserrat';
+        position: relative;
+        align-self: start;
+        left: 30px;
     }
 
     &_button {
@@ -76,10 +80,9 @@ body {
         color: #3C3C3C;
         border: 2px dashed #2161D0;
         border-radius: 17px;
-        font-size: 40px;
-        font-family: "InterR";
-        font-weight: bold;
-        padding: 17px;
+        font-size: 63px;
+        font-family: "BebasR";
+        padding: 12px;
     }
 
     &_subheader {
@@ -147,7 +150,11 @@ body {
     }
 }
 
-.blue {
+.blueH {
+    color: #2161D0;
+    font-family: 'BebasR';
+}
+.blueN {
     color: #2161D0;
     font-family: 'InterR';
 }
