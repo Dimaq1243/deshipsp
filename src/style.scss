@@ -19,14 +19,26 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-
     position: relative;
     z-index: 2;
+
 
     &_left {
         display: flex;
         align-items: center;
         gap: 20px;
+
+        @media(max-width: 800px) {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        @media (min-width: 381px) and (max-width: 768px) {
+            display: inline;
+            align-self: start;
+
+        }
     }
 
     &_logo {
@@ -34,31 +46,58 @@ body {
         height: 18.24px;
         position: relative;
         align-self: start;
+
+        @media (min-width: 381px) and (max-width: 768px) {
+            left: 30px;
+        }
     }
 
     &_link {
         color: black;
         width: 240px;
         height: 25px;
-
         font-weight: bold;
         font-family: 'Montserrat';
         position: relative;
         align-self: start;
         left: 30px;
+
+        @media (min-width: 381px) and (max-width: 768px) {
+            position: relative;
+            top: 30px;
+            right: 30px;
+        }
     }
 
     &_button {
         border: 2px solid #3C3C3C;
         width: 174px;
         height: 56px;
-        background-color: white;
+        background: white;
         padding: 15px;
         text-align: center;
         border-radius: 25px;
         font-size: 16px;
         color: #3C3C3C;
         font-family: 'InterR';
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        @media(max-width: 800px) {
+            font-size: 14px;
+            width: 150px;
+            height: 50px;
+            text-align: center;
+        }
+        @media (min-width: 381px) and (max-width: 768px) {
+            display: inline-block;
+            width: 120px;
+            height: 50px;
+            font-size: 15px;
+        }
+    }
+    button:hover {
+        background: #3C3C3C;
+        color: white;
     }
 }
 
@@ -95,10 +134,19 @@ body {
         font-family: 'Montserrat';
         margin-top: 70px;
         line-height: 30px;
+
+        @media(max-width: 800px) {
+            font-size: 15px;
+            margin-top: 30px;
+        }
     }
 
     &_btn_wrapper {
         margin-top: 70px;
+
+        @media(max-width: 800px) {
+            margin-top: 30px;
+        }
     }
 
     &_btn {
@@ -106,15 +154,33 @@ body {
         background-color: #2161D0;
         color: #fff;
         padding: 16px 20px;
-        border-radius: 25px;
+        border-radius: 250px;
         font-size: 16px;
         text-align: center;
-        width: 178.89px;
+        width: 178px;
         height: 56px;
         font-family: 'InterR';
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
 
+        @media(max-width: 800px) {
+            font-size: 15px;
+            width: 140px;
+            height: 50px;
+        }
+
+        @media (min-width: 381px) and (max-width: 768px) {
+            position: relative;
+            left: 140px;
+            width: 178px;
+            height: 56px;
+            font-size: 16px;
+        }
     }
-
+    button:hover {
+        background: black; /* чёрный фон при наведении */
+        color: #2161D0; /* белый текст при наведении */
+      }
 
 
     &_note {
@@ -128,6 +194,7 @@ body {
         padding: 20px;
         align-items: self-start;
 
+
         &_content {
             align-items: center;
             font-family: "Inter";
@@ -135,12 +202,25 @@ body {
             color: black;
             width: 324px;
             height: 84px;
+
         }
 
         &_wrapper {
             width: 100% !important;
             align-items: center;
             left: 314px;
+
+            @media(max-width: 800px) {
+                left: 200px;
+                ;
+            }
+
+            @media (min-width: 381px) and (max-width: 768px) {
+                left: 10px;
+                align-items: self-start;
+                top: 30px;
+            }
+
         }
     }
 
@@ -151,7 +231,12 @@ body {
         img {
             max-width: 764px;
             height: 668px;
+
+            @media(max-width: 800px) {
+                overflow: hidden;
+            }
         }
+
     }
 }
 
